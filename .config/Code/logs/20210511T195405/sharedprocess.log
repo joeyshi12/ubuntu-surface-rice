@@ -1,0 +1,13 @@
+[2021-05-11 19:54:09.505] [sharedprocess] [info] Installing extension: ms-toolsai.jupyter
+[2021-05-11 19:54:12.893] [sharedprocess] [info] Downloaded extension: ms-toolsai.jupyter /home/joey/.config/Code/CachedExtensionVSIXs/ms-toolsai.jupyter-2021.6.832593372
+[2021-05-11 19:54:13.760] [sharedprocess] [info] Extracted extension to /home/joey/.vscode/extensions/.022acc3f-d504-4dad-86f2-fc4622b748b6: ms-toolsai.jupyter
+[2021-05-11 19:54:13.783] [sharedprocess] [info] Renamed to /home/joey/.vscode/extensions/ms-toolsai.jupyter-2021.6.832593372
+[2021-05-11 19:54:13.794] [sharedprocess] [info] Installation completed. ms-toolsai.jupyter
+[2021-05-11 19:54:13.832] [sharedprocess] [info] Extensions installed successfully: ms-toolsai.jupyter
+[2021-05-11 19:54:47.231] [sharedprocess] [info] Starting to clean up unused language packs.
+[2021-05-11 19:55:06.103] [sharedprocess] [info] Installing extension: gulajavaministudio.mayukaithemevsc
+[2021-05-11 19:55:06.696] [sharedprocess] [info] Downloaded extension: gulajavaministudio.mayukaithemevsc /home/joey/.config/Code/CachedExtensionVSIXs/gulajavaministudio.mayukaithemevsc-2.0.6
+[2021-05-11 19:55:06.840] [sharedprocess] [info] Extracted extension to /home/joey/.vscode/extensions/.750909a2-20c1-4f6f-b2e5-cbd8037a295a: gulajavaministudio.mayukaithemevsc
+[2021-05-11 19:55:06.849] [sharedprocess] [info] Renamed to /home/joey/.vscode/extensions/gulajavaministudio.mayukaithemevsc-2.0.6
+[2021-05-11 19:55:06.850] [sharedprocess] [info] Installation completed. gulajavaministudio.mayukaithemevsc
+[2021-05-11 19:55:06.858] [sharedprocess] [info] Extensions installed successfully: gulajavaministudio.mayukaithemevsc

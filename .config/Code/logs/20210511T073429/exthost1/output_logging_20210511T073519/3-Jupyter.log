@@ -1,0 +1,102 @@
+Error 2021-05-11 07:35:20: Exception while attempting zmq : [Error: /snap/core/current/usr/lib/x86_64-linux-gnu/libstdc++.so.6: version `GLIBCXX_3.4.22' not found (required by /home/joey/.vscode/extensions/ms-toolsai.jupyter-2021.6.811652604/out/client/node_modules/zeromq/prebuilds/linux-x64/electron.napi.glibc.node)
+	at process.func [as dlopen] (electron/js2c/asar_bundle.js:5:1846)
+	at Object.Module._extensions..node (internal/modules/cjs/loader.js:1185:18)
+	at Object.func [as .node] (electron/js2c/asar_bundle.js:5:1846)
+	at Module.load (internal/modules/cjs/loader.js:982:32)
+	at Module._load (internal/modules/cjs/loader.js:823:14)
+	at Function.f._load (electron/js2c/asar_bundle.js:5:12684)
+	at Function.s._load (/snap/code/63/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:106:27816)
+	at Function.S._load (/snap/code/63/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:106:24532)
+	at Function.a._load (/snap/code/63/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:96:58822)
+	at Module.require (internal/modules/cjs/loader.js:1006:19)
+	at v (/snap/code/63/usr/share/code/resources/app/out/vs/loader.js:4:694)
+	at load (/home/joey/.vscode/extensions/ms-toolsai.jupyter-2021.6.811652604/out/client/node_modules/node-gyp-build/index.js:21:10)
+	at Object.<anonymous> (/home/joey/.vscode/extensions/ms-toolsai.jupyter-2021.6.811652604/out/client/node_modules/zeromq/lib/native.js:6:43)
+	at Module.u._compile (/snap/code/63/usr/share/code/resources/app/out/vs/loader.js:4:1311)
+	at Object.Module._extensions..js (internal/modules/cjs/loader.js:1155:10)
+	at Module.load (internal/modules/cjs/loader.js:982:32)
+	at Module._load (internal/modules/cjs/loader.js:823:14)
+	at Function.f._load (electron/js2c/asar_bundle.js:5:12684)
+	at Function.s._load (/snap/code/63/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:106:27816)
+	at Function.S._load (/snap/code/63/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:106:24532)
+	at Function.a._load (/snap/code/63/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:96:58822)
+	at Module.require (internal/modules/cjs/loader.js:1006:19)
+	at v (/snap/code/63/usr/share/code/resources/app/out/vs/loader.js:4:694)
+	at Object.<anonymous> (/home/joey/.vscode/extensions/ms-toolsai.jupyter-2021.6.811652604/out/client/node_modules/zeromq/lib/index.js:3:16)
+	at Module.u._compile (/snap/code/63/usr/share/code/resources/app/out/vs/loader.js:4:1311)
+	at Object.Module._extensions..js (internal/modules/cjs/loader.js:1155:10)
+	at Module.load (internal/modules/cjs/loader.js:982:32)
+	at Module._load (internal/modules/cjs/loader.js:823:14)
+	at Function.f._load (electron/js2c/asar_bundle.js:5:12684)
+	at Function.s._load (/snap/code/63/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:106:27816)
+	at Function.S._load (/snap/code/63/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:106:24532)
+	at Function.a._load (/snap/code/63/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:96:58822)
+	at Module.require (internal/modules/cjs/loader.js:1006:19)
+	at v (/snap/code/63/usr/share/code/resources/app/out/vs/loader.js:4:694)
+	at Object.<anonymous> (/home/joey/.vscode/extensions/ms-toolsai.jupyter-2021.6.811652604/out/client/extension.js:37:295963)
+	at n (/home/joey/.vscode/extensions/ms-toolsai.jupyter-2021.6.811652604/out/client/extension.js:1:186)
+	at d.zmqSupported (/home/joey/.vscode/extensions/ms-toolsai.jupyter-2021.6.811652604/out/client/extension.js:90:443665)
+	at d.isSupportedForLocalLaunch (/home/joey/.vscode/extensions/ms-toolsai.jupyter-2021.6.811652604/out/client/extension.js:90:443315)
+	at d.supported (/home/joey/.vscode/extensions/ms-toolsai.jupyter-2021.6.811652604/out/client/extension.js:90:443225)
+	at Object.t.registerTypes (/home/joey/.vscode/extensions/ms-toolsai.jupyter-2021.6.811652604/out/client/extension.js:52:805731)
+	at /home/joey/.vscode/extensions/ms-toolsai.jupyter-2021.6.811652604/out/client/extension.js:52:271349
+	at processTicksAndRejections (internal/process/task_queues.js:93:5)
+	at async /home/joey/.vscode/extensions/ms-toolsai.jupyter-2021.6.811652604/out/client/extension.js:37:823793
+	at async t.activate (/home/joey/.vscode/extensions/ms-toolsai.jupyter-2021.6.811652604/out/client/extension.js:37:823480)
+	at async Promise.all (index 0)
+	at async Promise.all (index 84)
+	at async Promise.all (index 1)]
+Info 2021-05-11 07:35:20: id is 46ed6444-7937-442c-ab4d-bf6cacb05d87
+Error 2021-05-11 07:35:20: Jupyter Extension (Error in Failed to update settings.json, method:fixSettingsFile): [EntryNotFound (FileSystemError): Unable to read file '/home/joey/.config/Code/User/settings.json' (Error: Unable to resolve non-existing file '/home/joey/.config/Code/User/settings.json')
+	at _handleError (/snap/code/63/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:87:156171)
+	at processTicksAndRejections (internal/process/task_queues.js:93:5)
+	at async m.readFile (/home/joey/.vscode/extensions/ms-toolsai.jupyter-2021.6.811652604/out/client/extension.js:90:487292)
+	at async g.fixSettingsFile (/home/joey/.vscode/extensions/ms-toolsai.jupyter-2021.6.811652604/out/client/extension.js:52:293369)
+	at async Promise.all (index 0)
+	at async g.updateSettings (/home/joey/.vscode/extensions/ms-toolsai.jupyter-2021.6.811652604/out/client/extension.js:52:295089)] {
+  code: 'FileNotFound'
+}
+Error 2021-05-11 07:35:20: Jupyter Extension (Error in Failed to update settings.json, method:fixSettingsFile): [EntryNotFound (FileSystemError): Unable to read file '/home/joey/Downloads/digit-recognition/.vscode/settings.json' (Error: Unable to resolve non-existing file '/home/joey/Downloads/digit-recognition/.vscode/settings.json')
+	at _handleError (/snap/code/63/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:87:156171)
+	at processTicksAndRejections (internal/process/task_queues.js:93:5)
+	at async m.readFile (/home/joey/.vscode/extensions/ms-toolsai.jupyter-2021.6.811652604/out/client/extension.js:90:487292)
+	at async g.fixSettingsFile (/home/joey/.vscode/extensions/ms-toolsai.jupyter-2021.6.811652604/out/client/extension.js:52:293369)
+	at async Promise.all (index 1)
+	at async g.updateSettings (/home/joey/.vscode/extensions/ms-toolsai.jupyter-2021.6.811652604/out/client/extension.js:52:295089)] {
+  code: 'FileNotFound'
+}
+Info 2021-05-11 07:35:20: Executing script head -c 1024 /dev/urandom to generate random bytes
+Info 2021-05-11 07:35:20: Generated random key of length 2048
+Info 2021-05-11 07:35:20: Successfully generated keyfile with OS PRNG
+Info 2021-05-11 07:35:21: Cached data exists getEnvironmentVariables, <No Resource>
+Info 2021-05-11 07:35:21: Cached data exists getEnvironmentVariables, <No Resource>
+Info 2021-05-11 07:35:21: Cached data exists getEnvironmentVariables, <No Resource>
+Info 2021-05-11 07:35:21: Process Execution: > /usr/bin/python3 ~/.vscode/extensions/ms-toolsai.jupyter-2021.6.811652604/pythonFiles/pyvsc-run-isolated.py pip list
+> /usr/bin/python3 ~/.vscode/extensions/ms-toolsai.jupyter-2021.6.811652604/pythonFiles/pyvsc-run-isolated.py pip list
+Info 2021-05-11 07:35:21: Process Execution: > /usr/bin/python3 ~/.vscode/extensions/ms-toolsai.jupyter-2021.6.811652604/pythonFiles/pyvsc-run-isolated.py pip list
+> /usr/bin/python3 ~/.vscode/extensions/ms-toolsai.jupyter-2021.6.811652604/pythonFiles/pyvsc-run-isolated.py pip list
+Info 2021-05-11 07:35:22: Process Execution: > /usr/bin/python3 ~/.vscode/extensions/ms-toolsai.jupyter-2021.6.811652604/pythonFiles/pyvsc-run-isolated.py -c "import jupyter"
+> /usr/bin/python3 ~/.vscode/extensions/ms-toolsai.jupyter-2021.6.811652604/pythonFiles/pyvsc-run-isolated.py -c "import jupyter"
+Info 2021-05-11 07:35:22: Process Execution: > /usr/bin/python3 ~/.vscode/extensions/ms-toolsai.jupyter-2021.6.811652604/pythonFiles/pyvsc-run-isolated.py -c "import jupyter"
+> /usr/bin/python3 ~/.vscode/extensions/ms-toolsai.jupyter-2021.6.811652604/pythonFiles/pyvsc-run-isolated.py -c "import jupyter"
+Info 2021-05-11 07:35:22: Process Execution: > /usr/bin/python3 ~/.vscode/extensions/ms-toolsai.jupyter-2021.6.811652604/pythonFiles/pyvsc-run-isolated.py -c "import notebook"
+> /usr/bin/python3 ~/.vscode/extensions/ms-toolsai.jupyter-2021.6.811652604/pythonFiles/pyvsc-run-isolated.py -c "import notebook"
+Info 2021-05-11 07:35:22: Process Execution: > /usr/bin/python3 ~/.vscode/extensions/ms-toolsai.jupyter-2021.6.811652604/pythonFiles/pyvsc-run-isolated.py -c "import notebook"
+> /usr/bin/python3 ~/.vscode/extensions/ms-toolsai.jupyter-2021.6.811652604/pythonFiles/pyvsc-run-isolated.py -c "import notebook"
+Info 2021-05-11 07:35:22: Search all interpreters /usr/bin/python3, /bin/python3
+Info 2021-05-11 07:35:31: Cached data exists getEnvironmentVariables, <No Resource>
+Info 2021-05-11 07:35:31: Process Execution: > /usr/bin/python3 ~/.vscode/extensions/ms-toolsai.jupyter-2021.6.811652604/pythonFiles/pyvsc-run-isolated.py pip list
+> /usr/bin/python3 ~/.vscode/extensions/ms-toolsai.jupyter-2021.6.811652604/pythonFiles/pyvsc-run-isolated.py pip list
+Info 2021-05-11 07:35:31: Process Execution: > /usr/bin/python3 ~/.vscode/extensions/ms-toolsai.jupyter-2021.6.811652604/pythonFiles/pyvsc-run-isolated.py pip list
+> /usr/bin/python3 ~/.vscode/extensions/ms-toolsai.jupyter-2021.6.811652604/pythonFiles/pyvsc-run-isolated.py pip list
+Info 2021-05-11 07:40:32: Shutting down notebooks for 77855f6b-af2b-45d7-9121-1a6f03b43eb7
+Info 2021-05-11 07:40:32: Disposing HostJupyterExecution 7a117965-9d9a-44c3-853b-b3d0793ba0b2
+Info 2021-05-11 07:40:32: Disposing super HostJupyterExecution 7a117965-9d9a-44c3-853b-b3d0793ba0b2
+Info 2021-05-11 07:40:32: Disposing HostJupyterExecution 7a117965-9d9a-44c3-853b-b3d0793ba0b2
+Info 2021-05-11 07:40:32: Finished disposing HostJupyterExecution  7a117965-9d9a-44c3-853b-b3d0793ba0b2
+Info 2021-05-11 07:40:32: Disposing HostJupyterExecution 7a117965-9d9a-44c3-853b-b3d0793ba0b2
+Info 2021-05-11 07:40:32: Finished disposing HostJupyterExecution  7a117965-9d9a-44c3-853b-b3d0793ba0b2
+Info 2021-05-11 07:40:32: Getting live share API during dispose HostJupyterExecution 7a117965-9d9a-44c3-853b-b3d0793ba0b2
+Info 2021-05-11 07:40:32: Detaching HostJupyterExecution 7a117965-9d9a-44c3-853b-b3d0793ba0b2
+Info 2021-05-11 07:40:32: Cleaning up server cache 7a117965-9d9a-44c3-853b-b3d0793ba0b2
+Info 2021-05-11 07:40:32: Finished disposing HostJupyterExecution  7a117965-9d9a-44c3-853b-b3d0793ba0b2

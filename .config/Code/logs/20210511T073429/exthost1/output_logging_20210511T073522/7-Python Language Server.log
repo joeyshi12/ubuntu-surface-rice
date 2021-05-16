@@ -1,0 +1,4 @@
+[Info  - 7:35:22 a.m.] Pylance language server 2021.5.1 (pyright df8b6b3c) starting
+[Info  - 7:35:22 a.m.] Server root directory: /home/joey/.vscode/extensions/ms-python.vscode-pylance-2021.5.1/dist
+[Error - 7:35:23 a.m.] Exception received when installing recursive file system watcher
+[Error - 7:35:31 a.m.] Exception received when installing recursive file system watcher

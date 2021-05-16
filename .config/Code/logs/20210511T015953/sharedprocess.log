@@ -1,0 +1,19 @@
+[2021-05-11 02:00:12.095] [sharedprocess] [info] Installing extension: ms-python.python
+[2021-05-11 02:00:15.391] [sharedprocess] [info] Downloaded extension: ms-python.python /home/joey/.config/Code/CachedExtensionVSIXs/ms-python.python-2021.5.829140558
+[2021-05-11 02:00:18.627] [sharedprocess] [info] Extracted extension to /home/joey/.vscode/extensions/.5120a29b-7349-4b3c-b32d-8fc040b7f1c8: ms-python.python
+[2021-05-11 02:00:18.658] [sharedprocess] [info] Renamed to /home/joey/.vscode/extensions/ms-python.python-2021.5.829140558
+[2021-05-11 02:00:18.662] [sharedprocess] [info] Installation completed. ms-python.python
+[2021-05-11 02:00:18.851] [sharedprocess] [info] Installing extension: ms-python.vscode-pylance
+[2021-05-11 02:00:18.935] [sharedprocess] [info] Installing extension: ms-toolsai.jupyter
+[2021-05-11 02:00:24.247] [sharedprocess] [info] Downloaded extension: ms-python.vscode-pylance /home/joey/.config/Code/CachedExtensionVSIXs/ms-python.vscode-pylance-2021.5.1
+[2021-05-11 02:00:26.090] [sharedprocess] [info] Downloaded extension: ms-toolsai.jupyter /home/joey/.config/Code/CachedExtensionVSIXs/ms-toolsai.jupyter-2021.6.811652604
+[2021-05-11 02:00:26.664] [sharedprocess] [info] Extracted extension to /home/joey/.vscode/extensions/.cf0a9299-0bbd-47ec-8a58-91c65c06b552: ms-python.vscode-pylance
+[2021-05-11 02:00:26.682] [sharedprocess] [info] Renamed to /home/joey/.vscode/extensions/ms-python.vscode-pylance-2021.5.1
+[2021-05-11 02:00:26.684] [sharedprocess] [info] Installation completed. ms-python.vscode-pylance
+[2021-05-11 02:00:26.813] [sharedprocess] [info] Extensions installed successfully: ms-python.vscode-pylance
+[2021-05-11 02:00:27.052] [sharedprocess] [info] Extracted extension to /home/joey/.vscode/extensions/.88240e95-c697-4ec1-8350-621f0a93bbe7: ms-toolsai.jupyter
+[2021-05-11 02:00:27.067] [sharedprocess] [info] Renamed to /home/joey/.vscode/extensions/ms-toolsai.jupyter-2021.6.811652604
+[2021-05-11 02:00:27.069] [sharedprocess] [info] Installation completed. ms-toolsai.jupyter
+[2021-05-11 02:00:27.084] [sharedprocess] [info] Extensions installed successfully: ms-toolsai.jupyter
+[2021-05-11 02:00:27.084] [sharedprocess] [info] Extensions installed successfully: ms-python.python
+[2021-05-11 02:00:35.004] [sharedprocess] [info] Starting to clean up unused language packs.

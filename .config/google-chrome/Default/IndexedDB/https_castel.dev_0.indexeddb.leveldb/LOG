@@ -1,0 +1,6 @@
+2021/05/13-19:51:33.219 b81 Creating DB /home/joey/.config/google-chrome/Default/IndexedDB/https_castel.dev_0.indexeddb.leveldb since it was missing.
+2021/05/13-19:51:33.246 b81 Reusing MANIFEST /home/joey/.config/google-chrome/Default/IndexedDB/https_castel.dev_0.indexeddb.leveldb/MANIFEST-000001
+2021/05/13-19:52:06.835 b81 Level-0 table #5: started
+2021/05/13-19:52:06.843 b81 Level-0 table #5: 4194 bytes OK
+2021/05/13-19:52:06.852 b81 Delete type=0 #3
+2021/05/13-19:52:06.853 b81 Manual compaction at level-0 from (begin) .. (end); will stop at (end)

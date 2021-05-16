@@ -1,0 +1,64 @@
+User belongs to experiment group 'pythonJediLSP'
+User belongs to experiment group 'jupyterTestcf'
+User belongs to experiment group 'pythonDiscoveryModuleWithoutWatcher'
+User belongs to experiment group 'jupyterEnhancedDataViewer'
+Error 2021-05-11 19:54:14: Exception while attempting zmq : [Error: /snap/core/current/usr/lib/x86_64-linux-gnu/libstdc++.so.6: version `GLIBCXX_3.4.22' not found (required by /home/joey/.vscode/extensions/ms-toolsai.jupyter-2021.6.832593372/out/client/node_modules/zeromq/prebuilds/linux-x64/electron.napi.glibc.node)
+	at process.func [as dlopen] (electron/js2c/asar_bundle.js:5:1846)
+	at Object.Module._extensions..node (internal/modules/cjs/loader.js:1185:18)
+	at Object.func [as .node] (electron/js2c/asar_bundle.js:5:1846)
+	at Module.load (internal/modules/cjs/loader.js:982:32)
+	at Module._load (internal/modules/cjs/loader.js:823:14)
+	at Function.f._load (electron/js2c/asar_bundle.js:5:12684)
+	at Function.s._load (/snap/code/64/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:106:27816)
+	at Function.S._load (/snap/code/64/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:106:24532)
+	at Function.a._load (/snap/code/64/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:96:58822)
+	at Module.require (internal/modules/cjs/loader.js:1006:19)
+	at v (/snap/code/64/usr/share/code/resources/app/out/vs/loader.js:4:694)
+	at load (/home/joey/.vscode/extensions/ms-toolsai.jupyter-2021.6.832593372/out/client/node_modules/node-gyp-build/index.js:21:10)
+	at Object.<anonymous> (/home/joey/.vscode/extensions/ms-toolsai.jupyter-2021.6.832593372/out/client/node_modules/zeromq/lib/native.js:6:43)
+	at Module.u._compile (/snap/code/64/usr/share/code/resources/app/out/vs/loader.js:4:1311)
+	at Object.Module._extensions..js (internal/modules/cjs/loader.js:1155:10)
+	at Module.load (internal/modules/cjs/loader.js:982:32)
+	at Module._load (internal/modules/cjs/loader.js:823:14)
+	at Function.f._load (electron/js2c/asar_bundle.js:5:12684)
+	at Function.s._load (/snap/code/64/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:106:27816)
+	at Function.S._load (/snap/code/64/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:106:24532)
+	at Function.a._load (/snap/code/64/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:96:58822)
+	at Module.require (internal/modules/cjs/loader.js:1006:19)
+	at v (/snap/code/64/usr/share/code/resources/app/out/vs/loader.js:4:694)
+	at Object.<anonymous> (/home/joey/.vscode/extensions/ms-toolsai.jupyter-2021.6.832593372/out/client/node_modules/zeromq/lib/index.js:3:16)
+	at Module.u._compile (/snap/code/64/usr/share/code/resources/app/out/vs/loader.js:4:1311)
+	at Object.Module._extensions..js (internal/modules/cjs/loader.js:1155:10)
+	at Module.load (internal/modules/cjs/loader.js:982:32)
+	at Module._load (internal/modules/cjs/loader.js:823:14)
+	at Function.f._load (electron/js2c/asar_bundle.js:5:12684)
+	at Function.s._load (/snap/code/64/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:106:27816)
+	at Function.S._load (/snap/code/64/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:106:24532)
+	at Function.a._load (/snap/code/64/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:96:58822)
+	at Module.require (internal/modules/cjs/loader.js:1006:19)
+	at v (/snap/code/64/usr/share/code/resources/app/out/vs/loader.js:4:694)
+	at Object.<anonymous> (/home/joey/.vscode/extensions/ms-toolsai.jupyter-2021.6.832593372/out/client/extension.js:37:295866)
+	at n (/home/joey/.vscode/extensions/ms-toolsai.jupyter-2021.6.832593372/out/client/extension.js:1:186)
+	at d.zmqSupported (/home/joey/.vscode/extensions/ms-toolsai.jupyter-2021.6.832593372/out/client/extension.js:90:443815)
+	at d.isSupportedForLocalLaunch (/home/joey/.vscode/extensions/ms-toolsai.jupyter-2021.6.832593372/out/client/extension.js:90:443465)
+	at d.supported (/home/joey/.vscode/extensions/ms-toolsai.jupyter-2021.6.832593372/out/client/extension.js:90:443375)
+	at Object.t.registerTypes (/home/joey/.vscode/extensions/ms-toolsai.jupyter-2021.6.832593372/out/client/extension.js:52:805868)
+	at /home/joey/.vscode/extensions/ms-toolsai.jupyter-2021.6.832593372/out/client/extension.js:52:271541
+	at processTicksAndRejections (internal/process/task_queues.js:93:5)
+	at async /home/joey/.vscode/extensions/ms-toolsai.jupyter-2021.6.832593372/out/client/extension.js:37:823700
+	at async t.activate (/home/joey/.vscode/extensions/ms-toolsai.jupyter-2021.6.832593372/out/client/extension.js:37:823387)
+	at async Promise.all (index 0)
+	at async d.$activate (/snap/code/64/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:92:19546)]
+Info 2021-05-11 19:54:14: id is 10f841c2-1353-4b9c-968f-2a9587d1ba85
+Info 2021-05-11 19:54:14: Found existing keyfile at /home/joey/.config/Code/User/globalStorage/ms-toolsai.jupyter/nbsecret
+Info 2021-05-11 19:54:18: Shutting down notebooks for 268913f6-468d-40e0-a73a-df8b28653e08
+Info 2021-05-11 19:54:18: Disposing HostJupyterExecution b001cc49-5c9d-4999-b16d-4b7814736ba2
+Info 2021-05-11 19:54:18: Disposing super HostJupyterExecution b001cc49-5c9d-4999-b16d-4b7814736ba2
+Info 2021-05-11 19:54:18: Disposing HostJupyterExecution b001cc49-5c9d-4999-b16d-4b7814736ba2
+Info 2021-05-11 19:54:18: Finished disposing HostJupyterExecution  b001cc49-5c9d-4999-b16d-4b7814736ba2
+Info 2021-05-11 19:54:18: Disposing HostJupyterExecution b001cc49-5c9d-4999-b16d-4b7814736ba2
+Info 2021-05-11 19:54:18: Finished disposing HostJupyterExecution  b001cc49-5c9d-4999-b16d-4b7814736ba2
+Info 2021-05-11 19:54:18: Getting live share API during dispose HostJupyterExecution b001cc49-5c9d-4999-b16d-4b7814736ba2
+Info 2021-05-11 19:54:18: Detaching HostJupyterExecution b001cc49-5c9d-4999-b16d-4b7814736ba2
+Info 2021-05-11 19:54:18: Cleaning up server cache b001cc49-5c9d-4999-b16d-4b7814736ba2
+Info 2021-05-11 19:54:18: Finished disposing HostJupyterExecution  b001cc49-5c9d-4999-b16d-4b7814736ba2
