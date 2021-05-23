@@ -8,10 +8,10 @@ super + Return
 
 # program launcher
 super + @space
-	rofi -modi run,drun,window -show drun -show-icons -sidebar-mode
+	rofi -theme ~/.config/rofi/themes/nord.rasi -lines 10 -modi run,drun,window -show drun -show-icons -sidebar-mode
 
 super + F1
-    qutebrowser
+    google-chrome
 
 super + F2
     thunar
@@ -26,9 +26,7 @@ super + F4
 super + Escape
 	pkill -USR1 -x sxhkd
 
-#
 # bspwm hotkeys
-#
 @Print
     flameshot gui
 
@@ -36,7 +34,7 @@ super + p
     bspc node -n 'last.!automatic.local'
 
 XF86MonBrightness{Up,Down}
-    brightnessctl s 10{+,-}
+    xbacklight {-inc,-dec} 5%
 
 XF86AudioPlay
     python3 ~/.config/scripts/player-mpris-tail.py play-pause &
@@ -56,8 +54,12 @@ XF86AudioMute
     pulsemixer --toggle-mute
 
 # quit/restart bspwm
-super + alt + {q,r}
-	bspc {quit,wm -r}
+super + alt + r
+	bspc wm -r
+
+# power menu
+super + alt + q
+    ~/.config/rofi/powermenu/powermenu.sh
 
 # close and kill
 super + {_,shift + }w

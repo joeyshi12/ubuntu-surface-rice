@@ -17,7 +17,6 @@ configuration {
   nord-yellow: #A8D7FE;
 
   border: 0;
-  lines: 10;
   padding: 0;
   margin: 8;
   spacing: 0;
@@ -37,7 +36,7 @@ listview {
 }
 
 element {
-  padding: 12;
+  padding: 8;
   orientation: vertical;
   text-color: @fg;
 }
