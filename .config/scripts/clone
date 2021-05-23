@@ -1,3 +1,34 @@
 #!/usr/bin/env python3
+import requests
+import sys
+import os
 
-print(2)
+
+def colorStr(s: str):
+    return "\033[92m" + s + "\033[0m"
+
+
+def printRepos(repos: object):
+    numRepos = len(repos)
+    numReposDigits = len(str(numRepos))
+    for i in range(numRepos):
+        repo = repos[i]
+        spaces = ")" + " " * (1 + numReposDigits - len(str(i + 1)))
+        displayStr = str(i + 1) + spaces + colorStr(repo.get("name"))
+        print(displayStr)
+
+
+if len(sys.argv) <= 2:
+    username = "joeyshi12" if len(sys.argv) == 1 else sys.argv[1]
+    url = "https://api.github.com/users/{username}/repos".format(username=username)
+    response = requests.get(url)
+    if response.status_code != 200:
+        print("invalid username")
+    else:
+        repos = response.json()
+        printRepos(repos)
+        choice = int(input("Choose a repository to clone: "))
+        os.system("git clone {url}".format(url=repos[choice - 1].get("html_url")))
+else:
+    print("Too many arguments provided")
+
