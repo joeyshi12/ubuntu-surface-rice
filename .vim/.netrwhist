@@ -1,6 +1,0 @@
-let g:netrw_dirhistmax  =10
-let g:netrw_dirhistcnt =4
-let g:netrw_dirhist_4='/home/joey/Downloads/blue-sky/polybar'
-let g:netrw_dirhist_3='/home/joey/Downloads/blue-sky'
-let g:netrw_dirhist_2='/home/joey/Downloads/blue-sky/polybar'
-let g:netrw_dirhist_1='/home/joey/Downloads/blue-sky'
