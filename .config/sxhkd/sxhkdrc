@@ -30,16 +30,14 @@ super + Escape
 @Print
     flameshot gui
 
-super + p
-    bspc node -n 'last.!automatic.local'
-
+# brightness controls
 XF86MonBrightness{Up,Down}
     xbacklight {-inc,-dec} 5%
 
 XF86AudioPlay
     python3 ~/.config/scripts/player-mpris-tail.py play-pause &
 
-# Volume controls
+# volume controls
 XF86AudioLowerVolume
     pulsemixer --change-volume -5; \
     pulsemixer --unmute; \
@@ -77,6 +75,10 @@ super + y
 super + g
 	bspc node -s biggest
 
+# move current node into most recently selected region
+super + p
+    bspc node -n 'last.!automatic.local'
+
 #
 # state/flags
 #
@@ -92,6 +94,10 @@ super + ctrl + {m,x,y,z}
 #
 # focus/swap
 #
+
+# focus the next/previous node in the same window
+super + {comma,period}
+	bspc node -f {next,prev}.local
 
 # focus the node in the given direction
 super + {_,shift + }{h,j,k,l}
