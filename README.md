@@ -2,4 +2,6 @@
 
 Configuration files for Linux on the Surface Pro
 
-![demo0](https://user-images.githubusercontent.com/46363213/119399211-78524400-bc8d-11eb-8b9b-793b576b45e1.png
+![demo0](https://user-images.githubusercontent.com/46363213/119400017-72a92e00-bc8e-11eb-934b-f4baf9229d97.png)
+
+![demo1](https://user-images.githubusercontent.com/46363213/119400025-7472f180-bc8e-11eb-950d-bcf93e7d84d2.png)
