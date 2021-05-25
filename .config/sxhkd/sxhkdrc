@@ -35,7 +35,7 @@ XF86MonBrightness{Up,Down}
     xbacklight {-inc,-dec} 5%
 
 XF86AudioPlay
-    python3 ~/.config/scripts/player-mpris-tail.py play-pause &
+    python3 ~/.config/scripts/media-monitor play-pause &
 
 # volume controls
 XF86AudioLowerVolume
