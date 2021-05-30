@@ -11,7 +11,7 @@ super + @space
 	rofi -theme ~/.config/rofi/themes/nord.rasi -lines 10 -modi run,drun,window -show drun -show-icons -sidebar-mode
 
 super + F1
-    google-chrome
+    brave-browser
 
 super + F2
     thunar
@@ -35,18 +35,14 @@ XF86MonBrightness{Up,Down}
     xbacklight {-inc,-dec} 5%
 
 XF86AudioPlay
-    python3 ~/.config/scripts/media-monitor play-pause &
+    media-monitor play-pause &
 
 # volume controls
 XF86AudioLowerVolume
-    pulsemixer --change-volume -5; \
-    pulsemixer --unmute; \
-    notify-send --hint=string:x-dunst-stack-tag:volume "Volume: $(pulsemixer --get-volume | head -n1 | cut -d " " -f1)"
+    change-volume -5
 
 XF86AudioRaiseVolume
-    pulsemixer --change-volume +5; \
-    pulsemixer --unmute; \
-    notify-send --hint=string:x-dunst-stack-tag:volume "Volume: $(pulsemixer --get-volume | head -n1 | cut -d " " -f1)"
+    change-volume 5
 
 XF86AudioMute
     pulsemixer --toggle-mute
