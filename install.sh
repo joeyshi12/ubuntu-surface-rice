@@ -46,6 +46,9 @@ sudo apt install bspwm rofi ranger cmatrix feh pulseaudio xbacklight tlp zathura
 pip3 install ueberzug
 sudo snap install alacritty --classic
 sudo snap install code --classic
+sudo add-apt-repository ppa:hsheth2/ppa
+sudo apt update
+sudo apt install cava
 
 
 # install brave-browser
