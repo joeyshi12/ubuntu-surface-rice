@@ -5,12 +5,13 @@ sudo apt update
 sudo apt upgrade
 
 
-# copy configs
+# copy configs + wallpapers + fonts
 cp -r .config * ~/.config
 cp .Xresources ~
 cp .xinitrc ~
 cp .bash* ~
 cp -r .vim* ~
+cp -r wallpapers ~/Pictures
 sudo cp -r fonts /usr/share/fonts/truetype
 fc-cache -v
 
