@@ -12,7 +12,7 @@ cp .xinitrc ~
 cp .bash* ~
 cp -r .vim* ~
 cp -r wallpapers ~/Pictures
-sudo cp -r fonts /usr/share/fonts/truetype
+sudo cp -r .fonts /usr/share/fonts/truetype
 fc-cache -v
 cp -r .themes/* /usr/share/themes/
 
