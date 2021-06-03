@@ -5,8 +5,8 @@ sudo apt update
 sudo apt upgrade
 
 
-# copy configs + wallpapers + fonts
-cp -r .config * ~/.config
+# copy configs + wallpapers + fonts + themes
+cp -r .config/* ~/.config
 cp .Xresources ~
 cp .xinitrc ~
 cp .bash* ~
@@ -14,6 +14,7 @@ cp -r .vim* ~
 cp -r wallpapers ~/Pictures
 sudo cp -r fonts /usr/share/fonts/truetype
 fc-cache -v
+cp -r .themes/* /usr/share/themes/
 
 
 # dependencies from blue-sky rice
@@ -57,6 +58,18 @@ sudo curl -fsSLo /usr/share/keyrings/brave-browser-archive-keyring.gpg https://b
 echo "deb [signed-by=/usr/share/keyrings/brave-browser-archive-keyring.gpg arch=amd64] https://brave-browser-apt-release.s3.brave.com/ stable main"|sudo tee /etc/apt/sources.list.d/brave-browser-release.list
 sudo apt update
 sudo apt install brave-browser
+
+
+# linux-surface
+cd ~/Downloads
+wget -qO - https://raw.githubusercontent.com/linux-surface/linux-surface/master/pkg/keys/surface.asc \
+    | gpg --dearmor | sudo dd of=/etc/apt/trusted.gpg.d/linux-surface.gpg
+echo "deb [arch=amd64] https://pkg.surfacelinux.com/debian release main" \
+	| sudo tee /etc/apt/sources.list.d/linux-surface.list
+sudo apt update
+sudo apt install linux-image-surface linux-headers-surface iptsd libwacom-surface
+sudo systemctl enable iptsd
+sudo apt install linux-surface-secureboot-mok
 
 
 sudo reboot
