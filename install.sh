@@ -15,6 +15,7 @@ cp -r wallpapers ~/Pictures
 sudo cp -r .fonts /usr/share/fonts/truetype
 fc-cache -v
 cp -r .themes/* /usr/share/themes/
+sudo cp jre.sh /etc/profile.d
 
 
 # dependencies from blue-sky rice
