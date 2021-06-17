@@ -12,7 +12,7 @@ cp .xinitrc ~
 cp .bash* ~
 cp -r .vim* ~
 cp -r wallpapers ~/Pictures
-sudo cp -r .fonts /usr/share/fonts/truetype
+sudo cp -r .fonts/* /usr/share/fonts/truetype
 fc-cache -v
 cp -r .themes/* /usr/share/themes/
 sudo cp jre.sh /etc/profile.d
@@ -44,7 +44,7 @@ sudo ninja -C build install
 
 
 # install applications
-sudo apt install bspwm rofi ranger cmatrix feh pulseaudio xbacklight tlp zathura latexmk texlive texlive-pictures python3-pip
+sudo apt install bspwm rofi ranger cmatrix feh pulseaudio xbacklight tlp zathura latexmk texlive texlive-pictures python3-pip thunar flameshot
 pip3 install ueberzug
 sudo snap install alacritty --classic
 sudo snap install code --classic
