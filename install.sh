@@ -16,6 +16,7 @@ sudo cp -r .fonts/* /usr/share/fonts/truetype
 fc-cache -v
 cp -r .themes/* /usr/share/themes/
 sudo cp jre.sh /etc/profile.d
+sudo cp 40-libinput.conf /usr/share/X11/xorg.conf
 
 
 # dependencies from blue-sky rice
