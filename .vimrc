@@ -7,9 +7,8 @@ Plug 'lervag/vimtex'
 Plug 'preservim/nerdtree'
 Plug 'vim-airline/vim-airline'
 Plug 'sheerun/vim-polyglot'
-Plug 'tomasiser/vim-code-dark'
-Plug 'joshdick/onedark.vim'
 Plug 'bignimbus/pop-punk.vim'
+Plug 'joshdick/onedark.vim'
 call plug#end()
 
 " General
